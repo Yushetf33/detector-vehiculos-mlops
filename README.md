@@ -3,7 +3,7 @@
 API REST para detección de vehículos en imágenes usando YOLOv8 y FastAPI, contenerizada con Docker y con seguimiento de experimentos mediante Weights & Biases.
 
 ## Autor
-**Yushe** — Máster en Deep Learning, Universidad Politécnica de Madrid
+**Yushetf** — Máster en Deep Learning, Universidad Politécnica de Madrid
 
 ## Instalación
 
@@ -43,7 +43,7 @@ docker run -p 8000:8000 vehicle-detector
 ## Experimentos W&B
 
 Los experimentos y métricas del modelo están disponibles en el siguiente reporte de Weights & Biases:
-[Enlace al reporte W&B]
+[[Enlace al reporte W&B]](https://api.wandb.ai/links/yushetf-universidad-polit-cnica-de-madrid/ftqfr6sb)
 
 ## Estructura del proyecto
 
