@@ -1,0 +1,24 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.7",
+  "startedAt":  "2026-04-23T21:28:45.065739Z",
+  "program":  "c:\\Users\\yushe\\Desktop\\MASTER DEEP LEARNING\\Módulo 3 - IA Generativa aplicada\\OPERACIONALIZACIÓN PARA ML\\PROYECTO\\Proyecto_MLOPS\\src\\train.py",
+  "codePath":  "src\\train.py",
+  "codePathLocal":  "src\\train.py",
+  "email":  "yyushetf@gmail.com",
+  "root":  "C:\\Users\\yushe\\Desktop\\MASTER DEEP LEARNING\\Módulo 3 - IA Generativa aplicada\\OPERACIONALIZACIÓN PARA ML\\PROYECTO\\Proyecto_MLOPS",
+  "host":  "LAPTOP-S8QQMCGG",
+  "executable":  "C:\\Users\\yushe\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "cpu_count":  12,
+  "cpu_count_logical":  16,
+  "disk":  {
+    "/":  {
+      "total":  "510453420032",
+      "used":  "366499274752"
+    }
+  },
+  "memory":  {
+    "total":  "16780767232"
+  },
+  "writerId":  "no64h6wkwuiqunz8acwnjq04twuw0pby"
+}

@@ -1,0 +1,24 @@
+2026-04-23 23:28:27,765 INFO    MainThread:29104 [wandb_setup.py:_flush():81] Current SDK version is 0.26.1
+2026-04-23 23:28:27,765 INFO    MainThread:29104 [wandb_setup.py:_flush():81] Configure stats pid to 29104
+2026-04-23 23:28:27,765 INFO    MainThread:29104 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-04-23 23:28:27,765 INFO    MainThread:29104 [wandb_init.py:setup_run_log_directory():723] Logging user logs to C:\Users\yushe\Desktop\MASTER DEEP LEARNING\Módulo 3 - IA Generativa aplicada\OPERACIONALIZACIÓN PARA ML\PROYECTO\Proyecto_MLOPS\wandb\run-20260423_232827-jf7x807x\logs\debug.log
+2026-04-23 23:28:27,765 INFO    MainThread:29104 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to C:\Users\yushe\Desktop\MASTER DEEP LEARNING\Módulo 3 - IA Generativa aplicada\OPERACIONALIZACIÓN PARA ML\PROYECTO\Proyecto_MLOPS\wandb\run-20260423_232827-jf7x807x\logs\debug-internal.log
+2026-04-23 23:28:27,766 INFO    MainThread:29104 [wandb_init.py:init():850] calling init triggers
+2026-04-23 23:28:27,766 INFO    MainThread:29104 [wandb_init.py:init():855] wandb.init called with sweep_config: {}
+config: {'model': 'yolov8n.pt', 'dataset': 'COCO128', 'task': 'detection', '_wandb': {}}
+2026-04-23 23:28:27,766 INFO    MainThread:29104 [wandb_init.py:init():898] starting backend
+2026-04-23 23:28:30,374 INFO    MainThread:29104 [wandb_init.py:init():913] sending inform_init request
+2026-04-23 23:28:33,677 INFO    MainThread:29104 [wandb_init.py:init():918] backend started and connected
+2026-04-23 23:28:33,678 INFO    MainThread:29104 [wandb_init.py:init():988] updated telemetry
+2026-04-23 23:28:33,679 INFO    MainThread:29104 [wandb_init.py:init():1011] communicating run to backend with 90.0 second timeout
+2026-04-23 23:28:34,224 INFO    MainThread:29104 [wandb_init.py:init():1056] starting run threads in backend
+2026-04-23 23:28:34,415 INFO    MainThread:29104 [wandb_run.py:_console_start():2554] atexit reg
+2026-04-23 23:28:34,415 INFO    MainThread:29104 [wandb_run.py:_redirect():2403] redirect: wrap_raw
+2026-04-23 23:28:34,415 INFO    MainThread:29104 [wandb_run.py:_redirect():2472] Wrapping output streams.
+2026-04-23 23:28:34,415 INFO    MainThread:29104 [wandb_run.py:_redirect():2495] Redirects installed.
+2026-04-23 23:28:34,418 INFO    MainThread:29104 [wandb_init.py:init():1094] run started, returning control to user process
+2026-04-23 23:28:43,698 INFO    MainThread:29104 [wandb_run.py:_finish():2321] finishing run yushetf-universidad-polit-cnica-de-madrid/vehicle-detector-mlops/jf7x807x
+2026-04-23 23:28:43,699 INFO    MainThread:29104 [wandb_run.py:_atexit_cleanup():2520] got exitcode: 0
+2026-04-23 23:28:43,699 INFO    MainThread:29104 [wandb_run.py:_restore():2502] restore
+2026-04-23 23:28:43,699 INFO    MainThread:29104 [wandb_run.py:_restore():2508] restore done
+2026-04-23 23:28:44,687 INFO    MainThread:29104 [wandb_run.py:_footer_sync_info():3889] logging synced files

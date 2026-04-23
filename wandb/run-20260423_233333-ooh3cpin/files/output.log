@@ -1,0 +1,79 @@
+Ultralytics 8.4.41  Python-3.13.7 torch-2.9.0+cpu CPU (13th Gen Intel Core i7-1360P)
+YOLOv8m summary (fused): 92 layers, 25,886,080 parameters, 0 gradients, 78.9 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 433.3395.6 MB/s, size: 50.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\yushe\Desktop\MASTER DEEP LEARNING\Módulo 3 - IA Generativa aplicada\OPERACIONALIZACIÓN PARA ML\PROYECTO\Proyecto_MLOPS\datasets\coco128\labels\train2017.cache... 126 images, 2 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 128/128 41.3Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 8/8 5.7s/it 45.5s6.6ss
+                   all        128        929      0.746      0.701      0.675      0.545
+                person         61        254      0.839      0.736      0.723      0.583
+               bicycle          3          6          1        0.5      0.495      0.413
+                   car         12         46       0.75      0.326      0.311      0.217
+            motorcycle          4          5      0.833          1      0.962      0.802
+              airplane          5          6      0.857          1      0.995      0.956
+                   bus          5          7      0.833      0.714      0.692      0.625
+                 train          3          3          1          1      0.995      0.995
+                 truck          5         12      0.714      0.417      0.392      0.235
+                  boat          2          6          1        0.5      0.495      0.438
+         traffic light          4         14        0.8      0.286      0.271      0.183
+             stop sign          2          2          1          1      0.995       0.92
+                 bench          5          9      0.857      0.667      0.634      0.395
+                  bird          2         16      0.938      0.938      0.923      0.603
+                   cat          4          4          1          1      0.995      0.901
+                   dog          9          9       0.75          1      0.968      0.794
+                 horse          1          2          1          1      0.995      0.696
+              elephant          4         17      0.941      0.941      0.945      0.798
+                  bear          1          1          1          1      0.995      0.796
+                 zebra          2          4          1          1      0.995       0.97
+               giraffe          4          9          1          1      0.995      0.755
+              backpack          4          6       0.75        0.5      0.495      0.274
+              umbrella          4         18      0.818          1      0.979      0.616
+               handbag          9         19        0.8      0.211      0.203      0.185
+                   tie          6          7       0.75      0.857      0.797      0.604
+              suitcase          2          4          1          1      0.995       0.67
+               frisbee          5          5        0.8        0.8      0.795      0.668
+                  skis          1          1          1          1      0.995      0.995
+             snowboard          2          7       0.75      0.857      0.855       0.64
+           sports ball          6          6        0.8      0.667      0.631      0.448
+                  kite          2         10       0.75        0.3      0.295     0.0682
+          baseball bat          4          4        0.5        0.5       0.33      0.119
+        baseball glove          4          7        0.6      0.429      0.425      0.285
+            skateboard          3          5          1        0.4      0.395      0.336
+         tennis racket          5          7          1      0.714      0.715      0.326
+                bottle          6         18      0.583      0.778      0.602      0.422
+            wine glass          5         16      0.615        0.5      0.488       0.42
+                   cup         10         36      0.933      0.778      0.736        0.5
+                  fork          6          6      0.667      0.333      0.278      0.233
+                 knife          7         16      0.778      0.875      0.821      0.583
+                 spoon          5         22      0.882      0.682      0.655      0.511
+                  bowl          9         28      0.808       0.75      0.732      0.661
+                banana          1          1        0.5          1      0.995      0.995
+              sandwich          2          2      0.333        0.5      0.495      0.495
+                orange          1          4          1        0.5      0.495      0.371
+              broccoli          4         11        0.5      0.182      0.185      0.171
+                carrot          3         24      0.609      0.583      0.457       0.33
+               hot dog          1          2      0.667          1      0.995      0.995
+                 pizza          5          5      0.714          1      0.995      0.846
+                 donut          2         14      0.737          1      0.969       0.89
+                  cake          4          4        0.8          1      0.995      0.839
+                 chair          9         35      0.565      0.743      0.603      0.377
+                 couch          5          6      0.833      0.833      0.778      0.674
+          potted plant          9         14      0.909      0.714      0.715       0.56
+                   bed          3          3          1          1      0.995      0.714
+          dining table         10         13      0.556      0.769      0.733      0.589
+                toilet          2          2          1          1      0.995      0.995
+                    tv          2          2      0.667          1      0.995      0.846
+                laptop          2          3          0          0          0          0
+                 mouse          2          2          0          0          0          0
+                remote          5          8          1      0.625      0.625      0.579
+            cell phone          5          8      0.714      0.625      0.554      0.353
+             microwave          3          3      0.375          1      0.995      0.764
+                  oven          5          5        0.4        0.4      0.328      0.262
+                  sink          4          6      0.286      0.333       0.25      0.233
+          refrigerator          5          5        0.6        0.6      0.545      0.431
+                  book          6         29      0.615      0.276      0.188      0.143
+                 clock          8          9      0.667      0.889      0.848        0.7
+                  vase          2          2      0.333          1      0.995       0.92
+              scissors          1          1          0          0          0          0
+            teddy bear          6         21      0.909      0.476      0.445      0.338
+            toothbrush          2          5          1        0.8      0.795      0.681
+Speed: 0.8ms preprocess, 346.8ms inference, 0.0ms loss, 0.9ms postprocess per image
+Results saved to [1mC:\Users\yushe\Desktop\MASTER DEEP LEARNING\Mdulo 3 - IA Generativa aplicada\OPERACIONALIZACIN PARA ML\PROYECTO\Proyecto_MLOPS\runs\detect\val-7[0m
