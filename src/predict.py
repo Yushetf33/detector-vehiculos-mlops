@@ -10,7 +10,7 @@ class VehicleDetector:
             print(f"Modelo no encontrado en {model_path}, descargando YOLOv8n...")
         self.model = YOLO(model_path)
 
-    def detect(self, image_path: str, confidence_threshold: float = 0.5):
+    def detect(self, image_path: str, confidence_threshold: float = 0.25):
         if not os.path.exists(image_path):
             raise FileNotFoundError(f"Imagen no encontrada: {image_path}")
         
