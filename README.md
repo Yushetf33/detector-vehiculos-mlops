@@ -16,16 +16,19 @@ Este proyecto aplica metodologías MLOps a un sistema de detección de vehículo
 - **pytest** — Tests automatizados
 
 ## 📁 Estructura del proyecto
+
+```text
+.
 ├── src/
-│   ├── main.py        # API FastAPI con endpoints de detección
-│   ├── predict.py     # Lógica de detección con YOLOv8
-│   └── train.py       # Evaluación y registro de experimentos en W&B
+│   ├── main.py          # API FastAPI con endpoints de detección
+│   ├── predict.py       # Lógica de detección con YOLOv8
+│   └── train.py         # Evaluación y registro de experimentos en W&B
 ├── tests/
-│   └── test_api.py    # Tests automatizados de la API
+│   └── test_api.py      # Tests automatizados de la API
 ├── notebooks/
 │   └── ProyectoDL_Vision.ipynb  # Notebook del proyecto original
-├── data/              # Dataset
-├── models/            # Modelos entrenados
+├── data/                # Dataset
+├── models/              # Modelos entrenados
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
