@@ -22,7 +22,7 @@ class VehicleDetector:
                 class_name = r.names[int(box.cls[0])]
                 confidence = float(box.conf[0])
                 
-                # Filtrar solo vehículos y por confianza mínima
+                # solo detecciones de vehículos
                 if class_name in self.VEHICLE_CLASSES and confidence >= confidence_threshold:
                     detections.append({
                         "class": class_name,
