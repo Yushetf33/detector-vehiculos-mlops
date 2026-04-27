@@ -1,5 +1,11 @@
 # 🚗 Proyecto MLOps - Detección de Vehículos
 
+## Sobre el proyecto
+Este proyecto surge del trabajo realizado en la asignatura de Visión por Computador 
+del Máster, donde entrené modelos YOLOv8 para detección de objetos. Quise ir un paso 
+más allá y operacionalizar el modelo: convertirlo en un servicio real accesible desde 
+cualquier lugar.
+
 API REST para detección de vehículos en imágenes usando YOLOv8 y FastAPI, contenerizada con Docker y con seguimiento de experimentos mediante Weights & Biases.
 
 ## Autor
