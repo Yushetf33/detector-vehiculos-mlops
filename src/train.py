@@ -54,7 +54,7 @@ def evaluate_model(
     print(f"✅ Completado: {run_name}")
     return results
 
-
+# Experimentos para encontrar la mejor configuración
 if __name__ == "__main__":
 
     experiments = [
