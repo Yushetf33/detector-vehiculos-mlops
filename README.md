@@ -9,7 +9,7 @@ cualquier lugar.
 API REST para detección de vehículos en imágenes usando YOLOv8 y FastAPI, contenerizada con Docker y con seguimiento de experimentos mediante Weights & Biases.
 
 ## Autor
-**Yushetf** — Máster en Deep Learning, Universidad Politécnica de Madrid
+**Yushetf**
 
 ## Descripción
 Este proyecto aplica metodologías MLOps a un sistema de detección de vehículos basado en YOLOv8. El modelo detecta coches, camiones, autobuses y motocicletas en imágenes, devolviendo las detecciones con clase, confianza y bounding box. Se han realizado 9 experimentos comparando distintos modelos y configuraciones, registrados en Weights & Biases.
